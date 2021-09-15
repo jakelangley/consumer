@@ -1,0 +1,164 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+.btn-with-bg-color a{
+	background-color: #fd3d69;
+    background-image: -webkit-linear-gradient(left,#fd3d69 0%,#fa7b59 50%,#fd3d69 100%);
+    background-image: linear-gradient(to right,#fd3d69 0%,#fa7b59 50%,#fd3d69 100%);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-size: 200% 100%;
+}
+.btn-with-bg-color a:hover{
+	background-color: #fa7b59;
+    border: none;
+    background-position: 100% 0;
+}
+
+.home header.eael-entry-header > a{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.home .articlelist .eael-post-grid .eael-entry-wrapper>.eael-entry-meta span.eael-posted-on::before{
+	content: '';
+	padding-right: 0px;
+}
+
+.home .articlelist .eael-entry-media{
+	box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+    transition: all .3s ease;
+}
+
+.home .articlelist .eael-entry-media:hover{
+	opacity: 1;
+    box-shadow: 0 15px 45px -5px rgba(7,10,25,.25);
+    -webkit-filter: brightness(1.07);
+    filter: brightness(1.07);
+    transform: translate(0,-2px);
+}
+
+.text-bg-yellow p > span{
+	background-color: #ffff00;
+}
+.text-bg-yellow span.elementor-icon-list-text{
+	background-color: #ffff00;
+}
+.ht {
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    color: #6A15A9;
+    padding-right: 5px;
+    display: inline-block;
+}
+.ht .hc {
+    display: none;
+    position: absolute;
+    left: -20px;
+    top: 25px;
+    transition: .5s;
+    border: 2px solid #6A15A9;
+    border-radius: 4px;
+    box-shadow: 10px 10px 40px 0 rgba(113, 120, 129, 0.5);
+    padding: 15px 20px;
+    background: #fff;
+    min-width: 500px;
+    font-size: 17px;
+    line-height: 1.33;
+    text-align: left;
+    color: #444;
+    font-weight: normal;
+    z-index: 5;
+    font-family: "Arimo",sans-serif;
+}
+
+.ht:after {
+    content: "?";
+    position: absolute;
+    right: -6px;
+    top: 10px;
+    font-size: 12px;
+    transform: translateY(-80%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #6A15A9;
+    line-height: 13.5px;
+    text-align: center;
+    color: #6A15A9;
+    font-family: "Arimo",sans-serif;
+}
+
+.review-container .ht:after{
+	top: -2px;
+	right: -10px;
+}
+.review-container .ht .hc{
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	border-radius: 4px;
+	padding: 12px;
+	font-size: 14px;
+	border: 0px solid #444;
+	font-style: normal;
+	top: 10px;
+	left: -40px;
+}
+
+.review-container .circle-progress .eael-progressbar-count-wrap{
+	display: none;
+}
+
+.review-container .circle-progress .eael-progressbar-title p{
+	margin-bottom: 0px;
+    color: #4a4a4a;
+    font-size: 24px;
+    line-height: 1em;
+}
+
+.review-container .circle-progress .eael-progressbar-circle-pie{
+	transform: rotate(-90deg);
+}
+.review-container .elementor-progress-bar{
+	border-radius: 20px;
+}
+.review-container .elementor-progress-bar .elementor-progress-text{
+	text-align: right;
+    margin-right: 20px;
+    border-right: 2px dotted #62A50E;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+.review-container .circle-progress .eael-progressbar-circle{
+	width: 120px !important;
+	width: 120px !important;
+}
+}
+
+.page-id-242 #content .elementor-container{
+	max-width: 860px;
+}
+
+.review-container .a-rating{
+	border-bottom: 2px solid #4a4a4a4a;
+}
+.review-container .a-rating .elementor-progress-bar{
+	border-radius: 0;
+}
+.review-container .a-rating .elementor-progress-bar .elementor-progress-text{
+	border-color: transparent;
+	text-align: left;
+}
+.a-rating-image .elementor-widget-wrap{
+	border: 1px solid #4a4a4a4a;
+	border-radius: 30px;
+}
